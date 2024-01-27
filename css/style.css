@@ -11,6 +11,21 @@ a {
 ul,
 ol {
   list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p,
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -22,6 +37,23 @@ ol {
 }
 
 /*==========NAV==============*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   color: #4d5ae5;
@@ -31,10 +63,16 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-part {
   color: #2e2f42;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -43,6 +81,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 0 24px;
+  gap: 40px;
 }
 
 .nav-link:hover,
@@ -50,8 +90,14 @@ ol {
   color: #404bbf;
 }
 
+.adress-list {
+  display: flex;
+  gap: 40px;
+}
+
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-link {
@@ -73,6 +119,12 @@ ol {
 .main {
   background: #2e2f42;
 }
+
+.main-container {
+  width: 1440px;
+  height: 600px;
+}
+
 .main-title {
   color: #fff;
   text-align: center;
@@ -80,6 +132,9 @@ ol {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-bottom: 48px;
+  padding-top: 188px;
 }
 
 .main-btn {
@@ -90,7 +145,12 @@ ol {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .main-btn:hover,
 .main-btn:focus {
   background-color: #404bbf;
@@ -101,12 +161,14 @@ ol {
 /*=============PRIORITY===========*/
 
 .priority {
+  padding: 120px;
 }
 
 .priority-list {
 }
 
 .priority-item {
+  padding: 120px;
 }
 
 .priority-subtitle {
@@ -115,6 +177,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .priority-item-text {
@@ -123,6 +186,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /*========================*/
@@ -140,6 +204,8 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding: 120px 639px 572px 639px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -147,9 +213,12 @@ ol {
 
 .team-item {
   background-color: #ffffff;
+  padding-top: 232px;
+  padding-bottom: 120px;
 }
 
 .team-picture {
+  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -158,6 +227,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
