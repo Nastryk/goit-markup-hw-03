@@ -273,7 +273,6 @@ img {
 }
 
 .portfolio-container {
-  border-top: none;
 }
 
 .portfolio-title {
@@ -304,7 +303,9 @@ img {
 .addition {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
+
 .portfolio-subtitle {
   color: #2e2f42;
   font-size: 20px;
