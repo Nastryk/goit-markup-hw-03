@@ -44,22 +44,11 @@ img {
   align-items: center;
 }
 
-.visually-hidden {
-  margin: -1px;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
 /*==========NAV==============*/
-
-..visually-hidden {
-}
 
 .logo {
   color: #4d5ae5;
@@ -169,6 +158,14 @@ img {
 /*========================*/
 
 /*=============PRIORITY===========*/
+
+.visually-hidden {
+  margin: -1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .priority {
   padding: 120px 0;
