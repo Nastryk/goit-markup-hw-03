@@ -214,6 +214,10 @@ img {
 .team-container {
 }
 
+.worker-menu {
+  padding: 32px 0 32px;
+}
+
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -240,7 +244,6 @@ img {
 }
 
 .team-picture {
-  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -258,7 +261,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -329,6 +331,7 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
